@@ -11,6 +11,10 @@ import cloudDark from "../assets/cloudDark.png";
 const Home = () => {
   const theme = useContext(ThemeContext);
   const darkMode = theme.state.darkMode;
+
+  const redirectresume = () => {
+    window.location.href = "https://drive.google.com/file/d/11q0K20b4mPTL5oPfoT2bHfTD2uxmRTRs/view?usp=sharing"
+  }
   return (
     <>
       <div
@@ -29,17 +33,16 @@ const Home = () => {
               <motion.span
                 className={darkMode ? "block text-black" : " text-white"}
               >
-                Hi, I am Aakash
+                Hi, I am Anupam
               </motion.span>
               <span className="block text-blue-500 z-0 lg:inline">
                 <Typical
                   steps={[
                     "Front End Developer",
-                    1000,
+                    1500,
                     "Full Stack Developer",
-                    1000,
-                    "Mobile Developer",
-                    1000,
+                    1500,
+
                   ]}
                   loop={Infinity}
                 />
@@ -52,8 +55,8 @@ const Home = () => {
                   : "mt-3 text-base text-white sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0"
               }
             >
-              I am a Front-End / Full-Stack Developer. I am currently working at
-              CloudStok Technologies as a Front-End Developer
+              I am a Front-End / Full-Stack Developer. I am currently looking for
+              opening as a Front-End Developer
             </p>
             <div className="flex md:justify-start ">
               {contactLinks.map((el) => (
@@ -68,7 +71,7 @@ const Home = () => {
             </div>
             <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
               <div className="mt-3 sm:mt-0 cursor-pointer w-1/2">
-                <Link className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-500 hover:bg-blue-200 md:py-4 md:text-lg md:px-10">
+                <Link onClick={redirectresume} className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-500 hover:bg-blue-200 md:py-4 md:text-lg md:px-10">
                   Resume
                 </Link>
               </div>

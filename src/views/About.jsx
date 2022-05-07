@@ -30,14 +30,13 @@ const About = () => {
                   : "mt-4 text-xl text-justify text-white"
               }
             >
-              I'm a self-taught web developer and Mobile App Developer with
-              experience in designing new features from ideation to production,
-              implementation of wireframes and design flows into high
-              performance software applications. I take into consideration the
-              user experience while writing reusable and efficient code. I
-              passionately combine good design, technology, and innovation in
-              all my projects, which I like to accompany from the first idea to
-              release.Currently, I'm focused on the backend development.
+              I am a Full Stack Web Developer  . I love to take up on new
+              challenges and learn new skills. I like to interact with people,
+              exchanging ideas and spreading knowledge and positivity.
+              I take into consideration the user experience while writing reusable
+              and efficient code. I passionately combine good design, technology, and innovation
+              as much as i can in all my projects, which I like to accompany from the first idea to
+              release. Currently, I'm focused on the frontend development.
             </p>
           </motion.div>
           <motion.div
@@ -53,8 +52,7 @@ const About = () => {
               }
             >
               Using a combination of cutting-edge technologies and reliable
-              open-source software I build user-focused, performant apps and
-              websites for smartphones, tablets, and desktops.
+              open-source software I build user-focused, performant web apps.
             </p>
           </motion.div>
           <motion.div className="flex flex-wrap mt-8 flex flex-wrap justify-between ">
